@@ -5,6 +5,10 @@
 	<groupId>helloworld_snehal</groupId>
 	<artifactId>helloworld_snehal</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	 <properties>
+ <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+ <maven.compiler.release>15</maven.compiler.release>
+ </properties>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
@@ -13,5 +17,13 @@
 			<version>4.13.2</version>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+	
+	<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.8.1</version>
+</dependency>
+</dependencies>
+	
 </project>
