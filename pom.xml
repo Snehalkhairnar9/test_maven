@@ -6,8 +6,8 @@
 	<artifactId>helloworld_snehal</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	 <properties>
-        <maven.compiler.source>15</maven.compiler.source>
-        <maven.compiler.target>15</maven.compiler.target>
+        <source>1.8</source>
+        <target>1.8</target>
     </properties>
 
     <dependencies>
