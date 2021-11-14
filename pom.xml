@@ -5,18 +5,13 @@
 	<groupId>helloworld_snehal</groupId>
 	<artifactId>helloworld_snehal</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	 <properties>
-        <source>1.8</source>
-        <target>1.8</target>
-    </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-        </dependency>
-    </dependencies>
-
-	
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13.2</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 </project>
