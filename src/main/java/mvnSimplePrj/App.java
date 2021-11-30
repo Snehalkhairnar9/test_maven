@@ -1,6 +1,6 @@
 package mvnSimplePrj;
 /**
-* @author Ruth.Lennon
+* @author Snehal khairnar
 *
 */
 public class App {
